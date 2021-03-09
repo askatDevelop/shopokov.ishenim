@@ -1,0 +1,167 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 16px;
+    background-color: white;
+    line-height: 1.3;
+    margin: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.header{
+    background-color: rgb(80, 55, 80);
+    padding: 15px 0;
+    text-align: center;
+}
+.logo{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.top-p{
+    color: white;
+    text-transform: uppercase;
+}
+.top-p-1{
+    color: white;
+}
+.main-nav a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 15px;
+}
+.p1{
+    max-width: 1200px;
+    text-align: center;
+}
+.delo{
+    background-color: rgb(56, 37, 109);
+    color: white;
+    padding: 50px 0 750px ;
+}
+.step img{
+    float: left;
+}
+.step-info{
+    padding: 40px 20px 40px 700px;
+}
+.step-info h3{
+    font-size: 18px;
+}
+.step-info p{
+    line-height: 1.5;
+}
+.about-us{
+    background-color: rgb(56, 37, 109);
+    color: white;
+    padding: 50px 0 300px ;
+}
+.step-2 img{
+    float: right;
+}
+.text-info{
+    padding: 40px 40px 40px 40px;
+}
+.text-info h3{
+    font-size: 18px;
+}
+.text-info p{
+    line-height: 1.5;
+}
+body{
+    padding: 3em;
+    background-color: #ccc;
+}
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+.slideshow{
+  width: 625px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: solid 1px white;
+}
+.slideshow-container {
+  width: 2500px;
+  font-size: 0;
+  transition: 1s ease;
+  height: 225px;
+}
+.slideshow-container:hover {
+  animation-play-state: paused;
+}
+img, .text-container {
+  width: 625px;
+  height: auto;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+}
+
+.text-container {
+  height: 225px;
+  position: relative;
+}
+
+
+p {
+  position: relative;
+  top: -45%;
+  padding: 5px;
+}
+.slide {
+  animation: slide 24s ease infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  
+  12.5% {
+    transform: translateX(0%);
+  }
+  
+  25% {
+    transform: translateX(-25%);
+  }
+  
+  37.5% {
+    transform: translateX(-25%);
+  }
+  
+  50% {
+    transform: translateX(-50%);
+  }
+  
+  62.5% {
+    transform: translateX(-50%);
+  }
+  
+  75% {
+    transform: translateX(-75%);
+  }
+  
+  87.5% {
+    transform: translateX(-75%);
+  }
+  
+  99% {
+    transform: translateX(-75%);
+  }
+  
+  100% {
+    transform: translateX(0);
+  }
+}
+.p {
+  margin-top: 140px;
+  text-align: center;
+}
