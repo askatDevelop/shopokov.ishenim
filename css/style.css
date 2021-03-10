@@ -63,6 +63,9 @@ body{
 .step-2 img{
     float: right;
 }
+.step-1 img{
+  float: right;
+}
 .text-info{
     padding: 40px 40px 40px 40px;
 }
@@ -71,6 +74,15 @@ body{
 }
 .text-info p{
     line-height: 1.5;
+}
+.header img{
+  max-width: 100%;
+}
+.delo img{
+  max-width: 100%;
+}
+.step-2 img{
+  max-width: 100%;
 }
 body{
     padding: 3em;
@@ -83,7 +95,7 @@ html{
     box-sizing: inherit;
 }
 .slideshow{
-  width: 625px;
+  max-width: 625px;
   margin: 0 auto;
   overflow: hidden;
   border: solid 1px white;
@@ -98,7 +110,7 @@ html{
   animation-play-state: paused;
 }
 img, .text-container {
-  width: 625px;
+  max-width: 625px;
   height: auto;
   display: inline-block;
   font-size: 16px;
@@ -109,8 +121,6 @@ img, .text-container {
   height: 225px;
   position: relative;
 }
-
-
 p {
   position: relative;
   top: -45%;
@@ -164,4 +174,24 @@ p {
 .p {
   margin-top: 140px;
   text-align: center;
+}
+.prog h3{
+  text-align: center;
+  font-size: 18px;
+}
+.about-us{
+  background-image: url(/img/122.jpg);
+  color: gold;
+  margin-top: 50px;
+}
+.prog{
+  background-color: rgb(56, 37, 109);
+  color: #fff;
+}
+.contact{
+  background-color: rgb(56, 37, 109);
+    color: white;
+    padding: 50px 0 750px ;
+    text-align: center;
+    font-size: 16px;
 }
